@@ -5,11 +5,11 @@ from DataBase import db
 
 storage = MemoryStorage()
 
-#       bot = Bot(token='')
+#       bot = Bot(token='5737815715:AAED6v1LzFgGkr80FN6f3DL-eM_nVbl8Jfc')
 dp = Dispatcher(bot, storage=storage)
 data = db.TeleData('DataBase/server.db')
 
-#       group_id = 
+#       group_id = -1001640412647
 
 # Вопросы
 
